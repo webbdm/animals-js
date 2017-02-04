@@ -1,0 +1,19 @@
+.cardholder {
+  height: 200px;
+  width: 150px;
+  background-color: grey;
+  border: 2px solid black;
+ 
+}
+
+.animal-description {
+  
+  color: red;
+  
+}
+
+.animal-price {
+  
+ color: green;
+  
+}
