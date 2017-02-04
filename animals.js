@@ -1,22 +1,22 @@
-var elephant = {
+var croc = {
   
-    name: "Elephant",
-    description: "elephant description",
+    name: "Crocodill-E",
+    description: "description",
     price:  "$20",
     url:  "",
 }
 
-var giraffe = {
+var wiggly = {
   
-    name: "Giraffe",
-    description: "giraffe description",
+    name: "Piggly wiggly",
+    description: "description",
     price:  "$20",
     url:  "",
 }
 
-var wolf = {
+var rat = {
   
-    name: "Wolf",
+    name: "Ratatouille",
     description: "wolf description",
     price:  "$20",
     url:  "",
@@ -24,24 +24,24 @@ var wolf = {
 
 var monkey = {
   
-    name: "Monkey",
-    description: "monkey description",
+    name: "TRNK Monkey",
+    description: "Our official toyTRNK mascot ",
     price:  "$20",
     url:  "",
 }
 
-var tiger = {
+var rintin = {
   
-    name: "Tiger",
-    description: "Tiger description",
+    name: "Rin Tin Tin",
+    description: "description",
     price:  "$20",
     url:  "",
 }
 
-var lion = {
+var stardust = {
   
-    name: "Lion",
-    description: "King of the African Plains",
+    name: "Stardust",
+    description: "description",
     price:  "$20",
     url:  "",
 }
@@ -72,9 +72,8 @@ var shark = {
   
 
 
-var products = [elephant, giraffe, wolf, monkey, tiger, lion, rhino, bear, shark];
-
-var info = document.getElementsByClassName("info");
+var products = [croc, wiggly, rat, monkey, rintin, stardust, rhino, bear, shark];
+var info = document.getElementsByClassName("info"); // divs where objects plugin 
 
 //console.log(products[8].name);
 
